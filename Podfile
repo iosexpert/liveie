@@ -1,0 +1,10 @@
+platform :ios, '7.0'
+
+inhibit_all_warnings!
+
+target 'RSKImageCropperExampleTests', :exclusive => true do
+  pod 'Expecta+Snapshots', '2.0.0'
+  pod 'Specta', '1.0.5'
+  pod 'Expecta', '1.0.3'
+  pod 'OCMock', '2.2.4'
+end

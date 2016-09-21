@@ -1,0 +1,64 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+#endif
+
+bool iphone5,iphone4,iphone6,iphone6p,ipad,slideend,callApi,locationStatus;
+NSString *userid,*userimage,*name_user,*friendID;
+NSString *vDurtion,*vPath,*aPath,*vFilters,*locationToSend,*selectedHashTag,*followingID,*toolName,*reply;
+UIImage *fimg1,*fimg2;
+float fPS,lat,lng;
+int videoLegth,Noti_Count,splash;
+NSDictionary *selectedFeed,*commentFeed,*postAfterComment,*selectedFeed1;
+BOOL videoUploaded;
+NSMutableArray *arrNearPlaces,*filterrArr,*newfilterarr,*bufferArr;
+UIImage *fimg1,*fimg2;
+UIImageView *imgSplash;
+NSString *start,*screen;
+NSURL *uuuuurrrrrrlllll;
+UIView *viewLoader;
+int shareOrReply,directOrSimple;
+int goToPostAfterComment;
+int notificationscren,screencount,pushback;
+int cameraCheck,goUpload;
+int selectedIndex;
+NSString *device_id,*commentString;
+NSString *screenName,*savedLocation,*version;
+
+//NSString *screenName,*savedLocation,*WEBURL,*appUrl,*WEBURL1,*CONNECTURL,*appUrlThumb;
+
+
+//#define WEBURL @"http://52.25.161.173/live/UserServices.svc"
+//#define appUrl  @"http://52.25.161.173/live"
+//#define WEBURL1  @"http://52.25.161.173/live/Post.svc"
+//#define CONNECTURL  @"http://52.25.161.173/live/Connects.svc"
+
+//
+#define WEBURL @"http://52.25.161.173/demo/WCFServices/UserServices.svc"
+#define appUrl  @"http://52.25.161.173/demo/WCFServices"
+#define WEBURL1  @"http://52.25.161.173/demo/WCFServices/Post.svc"
+#define CONNECTURL  @"http://52.25.161.173/demo/WCFServices/Connects.svc"
+#define NotURL  @"http://52.25.161.173/demo/WCFServices/Notification.svc"
+
+//#define WEBURL @"http://54.210.45.137/Liveie/WCFServices/UserServices.svc"
+//#define appUrl  @"http://54.210.45.137/Liveie/WCFServices"
+//#define WEBURL1  @"http://54.210.45.137/Liveie/WCFServices/Post.svc"
+//#define CONNECTURL  @"http://54.210.45.137/Liveie/WCFServices/Connects.svc"
+
+#define appUrlThumb @"http://54.210.45.137/Liveie/"
+

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="onBordingViewController">
+            <connections>
+                <outlet property="donebtn" destination="W4j-jM-gov" id="f9A-LA-EQz"/>
+                <outlet property="dot1" destination="6M1-LE-UIG" id="beq-Xo-P8S"/>
+                <outlet property="dot2" destination="kuD-mb-UYr" id="Nt0-8H-lys"/>
+                <outlet property="dot3" destination="8Pm-7V-qv7" id="b5e-RZ-haN"/>
+                <outlet property="dot4" destination="YhN-UT-MT9" id="Taf-7a-6pi"/>
+                <outlet property="dot5" destination="FOu-H0-6PC" id="C4u-Is-lJe"/>
+                <outlet property="imgLogo" destination="gx9-xu-FpY" id="fVc-ja-k2W"/>
+                <outlet property="scrv" destination="XI0-Vq-FJd" id="z7k-8D-85X"/>
+                <outlet property="view" destination="iN0-l3-epB" id="iz7-GW-Krc"/>
+                <outlet property="view1" destination="zQS-HG-dVj" id="5hi-UG-MRT"/>
+                <outlet property="view2" destination="Nba-Dg-Yhj" id="Kge-cA-7bj"/>
+                <outlet property="view3" destination="SSr-Yk-bmG" id="QWG-HG-ULH"/>
+                <outlet property="view4" destination="ZxQ-JK-egM" id="Dev-RV-WYq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="1Qg-4q-6zG">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="XI0-Vq-FJd">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="board" id="KL9-c0-BDL">
+                            <rect key="frame" x="0.0" y="-1" width="414" height="737"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zdu-2e-KxR">
+                            <rect key="frame" x="128" y="329" width="158" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="loginbutton"/>
+                            <connections>
+                                <action selector="LoginClick:" destination="-1" eventType="touchUpInside" id="qQ2-4G-hOX"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="blH-Gn-Hhf">
+                            <rect key="frame" x="128" y="398" width="158" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="signupbutton"/>
+                            <connections>
+                                <action selector="SignUpClick:" destination="-1" eventType="touchUpInside" id="bmK-cP-Wtj"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoText" id="gx9-xu-FpY">
+                            <rect key="frame" x="116" y="106" width="182" height="75"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" id="zQS-HG-dVj">
+                            <rect key="frame" x="414" y="0.0" width="414" height="736"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.43529411759999997" green="0.22352941179999999" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="Nba-Dg-Yhj">
+                            <rect key="frame" x="828" y="0.0" width="414" height="736"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.43529411759999997" green="0.22352941179999999" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="SSr-Yk-bmG">
+                            <rect key="frame" x="1242" y="0.0" width="414" height="736"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.43529411759999997" green="0.22352941179999999" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="ZxQ-JK-egM">
+                            <rect key="frame" x="1656" y="0.0" width="414" height="736"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.43529411759999997" green="0.22352941179999999" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.43529411759999997" green="0.22352941179999999" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="LvZ-o1-M6X"/>
+                    </connections>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8sO-Hu-ABZ">
+                    <rect key="frame" x="361" y="387" width="46" height="54"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="next_action:" destination="-1" eventType="touchUpInside" id="pHS-Yz-sDB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="W4j-jM-gov">
+                    <rect key="frame" x="80" y="645" width="261" height="54"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="done_action:" destination="-1" eventType="touchUpInside" id="nbe-uQ-x3g"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="izR-ju-0ua">
+                    <rect key="frame" x="8" y="387" width="46" height="54"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="back_action:" destination="-1" eventType="touchUpInside" id="OnO-aj-czC"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="filled" id="6M1-LE-UIG">
+                    <rect key="frame" x="148" y="662" width="10" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emptydot" id="8Pm-7V-qv7">
+                    <rect key="frame" x="202" y="662" width="10" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emptydot" id="kuD-mb-UYr">
+                    <rect key="frame" x="176" y="662" width="10" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emptydot" id="YhN-UT-MT9">
+                    <rect key="frame" x="230" y="662" width="10" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emptydot" id="FOu-H0-6PC">
+                    <rect key="frame" x="257" y="662" width="10" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.43529411759999997" green="0.22352941179999999" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="664" y="227"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LogoText" width="187" height="80"/>
+        <image name="board" width="320" height="568"/>
+        <image name="emptydot" width="17" height="17"/>
+        <image name="filled" width="17" height="17"/>
+        <image name="loginbutton" width="122" height="38"/>
+        <image name="signupbutton" width="122" height="38"/>
+    </resources>
+</document>
